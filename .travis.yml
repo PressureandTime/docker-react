@@ -9,4 +9,4 @@ before_install:
 
 
 script:
-  - docker run -e CI=true pressureandtime/docker-react npm run test
+  - docker run pressureandtime/docker-react npm run test -- --coverage
